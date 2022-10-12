@@ -1,0 +1,20 @@
+{
+  "name": "front-end-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnotiyann/FRONT-END-BOOTSTRAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justnotiyann/FRONT-END-BOOTSTRAP/issues"
+  },
+  "homepage": "https://github.com/justnotiyann/FRONT-END-BOOTSTRAP#readme"
+}
