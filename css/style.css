@@ -12,7 +12,6 @@ a {
 
 main .layanan_kami .card-layanan {
   padding: 2em;
-  border: 1px solid rgba(0, 0, 0, 0.432);
   border-radius: 10px;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.048);
   transition: all 0.6s ease-in-out; }
@@ -40,3 +39,6 @@ main .nikmati {
   main .nikmati button {
     padding: 1em;
     border-radius: 10px; }
+
+main footer ul {
+  list-style-type: none; }
