@@ -26,35 +26,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#layanan_kami">Layanan Kami</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link" aria-current="page" href="#why_us">Kenapa Harus Kami</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -63,70 +45,68 @@
     <main>
         <!-- Hero -->
         <div class="container">
-            <div class="row justify-content-center align-items-center min-vh-100">
-                <div class="col-6">
+            <div class="row justify-content-center align-items-center min-vh-100 p-2">
+                <div class="col-lg-6 order-1">
                     <h1 class="fw-bold">welcome to our shop</h1>
                     <p>Let's check our product here</p>
                     <button class="btn btn-success">Check Here</button>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 order-sm-1">
                     <img src="./public/images/undraw_augmented_reality_re_f0qd.svg" width="100%">
                 </div>
             </div>
         </div>
 
         <!-- layanan kami -->
-        <div class="container-fluid p-5 layanan_kami bg-light">
+        <div class="container-fluid p-5 layanan_kami bg-light" id="layanan_kami">
             <div class="row">
-                <div class="col-8 offset-2">
-                    <div class="title text-center">
-                        <h1 class="fw-bold">Layanan Kami</h1>
-                        <p class="fw-bold">Harga Kosan Kualitas Sultan</p>
+                <div class="title text-center">
+                    <h1 class="fw-bold">Layanan Kami</h1>
+                    <p class="fw-bold">Harga Kosan Kualitas Sultan</p>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 mb-2">
+                        <div class="card card-layanan p-2">
+                            <div class="card-head d-flex justify-content-center align-items-center">
+                                <img src="./public/images/layanan/Server-1.png" alt="" width="50%">
+                            </div>
+                            <div class="card-title ">
+                                <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
+                            </div>
+                            <div class=" card-body text-center">
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                                    dignissimos!</p>
+                                <button class="btn btn-success">More info !</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-4">
-                            <div class="card card-layanan mr-2">
-                                <div class="card-head d-flex justify-content-center align-items-center">
-                                    <img src="./public/images/layanan/Server-1.png" alt="" width="50%">
-                                </div>
-                                <div class="card-title ">
-                                    <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
-                                </div>
-                                <div class=" card-body text-center">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-                                        dignissimos!</p>
-                                    <button class="btn btn-success">More info !</button>
-                                </div>
+                    <div class="col-lg-4 mb-2">
+                        <div class="card card-layanan p-2">
+                            <div class="card-head d-flex justify-content-center align-items-center">
+                                <img src="./public/images/layanan/vcpu (1).webp" alt="" width="50%">
+                            </div>
+                            <div class="card-title ">
+                                <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
+                            </div>
+                            <div class=" card-body text-center">
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                                    dignissimos!</p>
+                                <button class="btn btn-success">More info !</button>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="card card-layanan mr-2">
-                                <div class="card-head d-flex justify-content-center align-items-center">
-                                    <img src="./public/images/layanan/vcpu (1).webp" alt="" width="50%">
-                                </div>
-                                <div class="card-title ">
-                                    <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
-                                </div>
-                                <div class=" card-body text-center">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-                                        dignissimos!</p>
-                                    <button class="btn btn-success">More info !</button>
-                                </div>
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                        <div class="card card-layanan p-2">
+                            <div class="card-head d-flex justify-content-center align-items-center">
+                                <img src="./public/images/layanan/Server-Ujian-Online.png" alt="" width="50%">
                             </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card card-layanan mr-2">
-                                <div class="card-head d-flex justify-content-center align-items-center">
-                                    <img src="./public/images/layanan/Server-Ujian-Online.png" alt="" width="50%">
-                                </div>
-                                <div class="card-title ">
-                                    <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
-                                </div>
-                                <div class=" card-body text-center">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-                                        dignissimos!</p>
-                                    <button class="btn btn-success">More info !</button>
-                                </div>
+                            <div class="card-title ">
+                                <h4 class="fw-bold mt-5 text-center">Menyediakan Layanan Server</h4>
+                            </div>
+                            <div class=" card-body text-center">
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+                                    dignissimos!</p>
+                                <button class="btn btn-success">More info !</button>
                             </div>
                         </div>
                     </div>
@@ -135,13 +115,13 @@
         </div>
 
         <!-- testimonials -->
-        <div class="container p-5 testimonials">
+        <div class="container p-5 testimonials" id="why_us">
             <div class="title text-center p-5">
                 <h1 class="fw-bold">Kenapa harus kami ?</h1>
             </div>
             <div class="row">
-                <div class="col-4">
-                    <div class="card border-0 mr-3">
+                <div class="col-lg-4">
+                    <div class="card border-0">
                         <div class="card-image d-flex justify-content-center align-items-center">
                             <img src="./public/images/layanan/CHOOSUSE.webp" alt="">
                         </div>
@@ -152,8 +132,8 @@
                             terjamin</div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card border-0 mr-3">
+                <div class="col-lg-4">
+                    <div class="card border-0">
                         <div class="card-image d-flex justify-content-center align-items-center">
                             <img src="./public/images/layanan/CHOOSUSE.webp" alt="">
                         </div>
@@ -164,8 +144,8 @@
                             kecepatan</div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card border-0 mr-3">
+                <div class="col-lg-4">
+                    <div class="card border-0">
                         <div class="card-image d-flex justify-content-center align-items-center">
                             <img src="./public/images/layanan/CHOOSUSE.webp" alt="">
                         </div>
@@ -179,12 +159,12 @@
         </div>
 
         <!-- kata mareka -->
-        <div class="container-fluid p-5 bg-light kata_mereka">
+        <div class="container-fluid p-5 bg-light kata_mereka" id="testimonials">
             <div class="title text-center p-5">
                 <h1 class="fw-bold">Dengarkan kata mereka</h1>
             </div>
             <div class="row justify-content-center align-items-baseline">
-                <div class="col-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card border-0">
                         <div class="card-judul p-4">Disini salah satu solusi yang baik untuk dapat membuat
                             website baru
@@ -202,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card border-0">
                         <div class="card-judul p-4">Terimakasih atas layanan servernya nya desain web saya jadi
                             bagus,kekinian dan pelayanannya cepat..semoga sukses terus</div>
@@ -218,7 +198,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 mb-2">
                     <div class="card border-0">
                         <div class="card-judul p-4">Setelah pakai server disini untuk web 3 bulan kemudian omset
                             perusahaan naik berkali-kali lipat.</div>
@@ -239,50 +219,23 @@
 
         <!-- nikmati -->
         <div class="container mt-5 nikmati">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-6">
+            <div class="row p-5 justify-content-center align-items-center">
+                <div class="col-lg-6">
                     <h1 class="fw-bold">
                         Mulai nikmati server ala sultan dengan harga kosan
                     </h1>
                     <button class="btn btn-success fw-bold">Layanan Kami</button>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 mt-5 d-flex justify-content-center align-items-center">
                     <img src="./public/images/kata mereka/SULTAN.webp" alt="sultan abiezz" width="60%">
                 </div>
             </div>
         </div>
-
-        <!-- footer -->
-        <footer>
-            <div class="row">
-                <div class="col-3">
-                    © 2022 Disini.com adalah solusi akan kebutuhan Cloud yang terus meningkat di Indonesia. Kami
-                    berusaha untuk selalu memberikan layanan yang prima dengan harga yang kompetitif untuk seluruh
-                    kalangan.
-                </div>
-                <div class="col-3">
-                    <h4>Tools</h4>
-                    <ul>
-                        <li><a href="">Looking Glass Cibinong</a></li>
-                        <li><a href="">Looking Glass Jakarta</a></li>
-                        <li><a href="">MRTG</a></li>
-                        <li><a href="">Uptime Monitoring</a></li>
-                    </ul>
-                </div>
-                <div class="col-3">
-                </div>
-                <div class="col-3"></div>
-            </div>
-        </footer>
-
-        <aside>
-            <div class="container">
-                <div class="row" id="card_looping">
-
-                </div>
-            </div>
-        </aside>
     </main>
+
+    <footer>
+        <p>created by <a href="">muhammad fitrian</a></p>
+    </footer>
 
 
     <script src="./public/javascript/script.js"></script>
